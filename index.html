@@ -1,0 +1,26 @@
+---
+layout: default
+title: "The Bibliography of Important Fabricated Texts"
+---
+<div class="introduction">
+  <h1>Home</h1>
+
+<p>This is the online version of the <i>Sample Bibliography of Important Fabricated Texts</i>. Founded in 1800, it tells the story of fake stuff through fake stuff. His cat happen now, it was too purr-fect!!! thinking longingly about tuna brine hiss at vacuum cleaner. Stand with legs in litter box, but poop outside. Lick the plastic bag. Cough furball into food bowl then scratch owner for a new one stuff and things scratch the box, stick butt in face roll on the floor purring your whiskers off yet scratch the box and refuse to drink water except out of someone's glass.</p>
+<p>The bibliography is organized into 5 parts ordered chronologically. There is a database project under development.</p>
+</div>
+
+<hr>
+
+<div class="toc">
+  <h2>The Sample Bibliography of Important Fabricated Texts</h2>
+  <ul class="texts">
+  {% for item in site.texts %}
+
+    <li class="text-title">
+      <a href="{{ site.baseurl }}{{ item.url }}">
+        {{ item.title }}
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
