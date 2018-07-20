@@ -5,7 +5,7 @@ title:               Sample Bibliography of Important Fabricated Texts
 tagline:             'A Really Important Work'
 description:         'This is an important bibliography that was made up as part of a project.'
 url:                 'http://www.library.upenn.edu/'
-baseurl:             '/sample-bib'
+baseurl:             '/ed-demo'
 
 # About/contact
 author:
